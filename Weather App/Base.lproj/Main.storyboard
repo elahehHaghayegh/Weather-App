@@ -51,6 +51,9 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z8I-7x-0yO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8i-Sn-RDw">
                                 <rect key="frame" x="26" y="213" width="323" height="100"/>
@@ -82,6 +85,10 @@
                             <constraint firstItem="rr6-Py-n2t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="yYB-cp-m1O"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityNameTextField" destination="rr6-Py-n2t" id="8cr-gt-iF3"/>
+                        <outlet property="resultLabel" destination="e8i-Sn-RDw" id="7Ea-g0-SLa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
