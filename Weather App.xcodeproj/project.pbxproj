@@ -12,6 +12,7 @@
 		A80B09B21F43563000577111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80B09B01F43563000577111 /* Main.storyboard */; };
 		A80B09B41F43563000577111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80B09B31F43563000577111 /* Assets.xcassets */; };
 		A80B09B71F43563000577111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80B09B51F43563000577111 /* LaunchScreen.storyboard */; };
+		A80B09BF1F43564500577111 /* weather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A80B09BE1F43564500577111 /* weather.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A80B09B31F43563000577111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80B09B61F43563000577111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80B09B81F43563000577111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80B09BE1F43564500577111 /* weather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A80B09AC1F43563000577111 /* AppDelegate.swift */,
 				A80B09AE1F43563000577111 /* ViewController.swift */,
 				A80B09B01F43563000577111 /* Main.storyboard */,
+				A80B09BE1F43564500577111 /* weather.jpg */,
 				A80B09B31F43563000577111 /* Assets.xcassets */,
 				A80B09B51F43563000577111 /* LaunchScreen.storyboard */,
 				A80B09B81F43563000577111 /* Info.plist */,
@@ -125,6 +128,7 @@
 			files = (
 				A80B09B71F43563000577111 /* LaunchScreen.storyboard in Resources */,
 				A80B09B41F43563000577111 /* Assets.xcassets in Resources */,
+				A80B09BF1F43564500577111 /* weather.jpg in Resources */,
 				A80B09B21F43563000577111 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
